@@ -1,12 +1,13 @@
+export class User {
+  name = "";
+  lastname = "";
+  email = "";
+  connected = false;
 
-export class User{
-  name = '';
-  lastname = '';
-  email = '';
-
-  constructor(name, lastname, email){
+  constructor(name, lastname, email, connected) {
     this.name = name;
     this.lastname = lastname;
     this.email = email;
+    this.connected = connected;
   }
 }
