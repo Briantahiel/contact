@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+npm i bootstrap --save
+npm i bootstrap-icons --save
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 # dependencies
 /node_modules
 /.pnp
