@@ -3,6 +3,16 @@ npm i bootstrap --save
 npm i bootstrap-icons --save
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
+
+Crear un repositorio de GitHub para el proyecto.
+Clonar el repositorio a su computadora.
+En la carpeta del proyecto, ejecutar el comando npm run build para construir el proyecto para producción.
+Crear un nuevo branch llamado gh-pages en el repositorio de GitHub.
+En la carpeta del proyecto, ejecutar el siguiente comando:
+css
+git subtree push --prefix build origin gh-pages
+Esperar a que se cargue el código y confirmar que se ha subido correctamente.
+Ir a la página de configuración del repositorio de GitHub y cambiar la fuente de GitHub Pages a la rama gh-pages.
 # dependencies
 /node_modules
 /.pnp
